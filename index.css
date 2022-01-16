@@ -1,0 +1,180 @@
+body {
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+
+
+.container1 {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink:0; */
+}
+
+.header {
+    padding: 15px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink:0;
+    gap:15px;
+    /* flex:1; */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+    padding:8px;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:16px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container1-content {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:300px;
+    padding: 70px 300px 120px 300px;
+    flex-shrink:0;
+    max-width: 1440px;
+    /* align-items: center;
+    justify-content: center;
+    padding: 15px 300px;
+    gap: 400px;  */
+}
+
+#c1-left {
+    flex-direction: column;
+    text-align:left;
+}
+
+.hero-txt {
+    font-size: 48px;
+    font-weight:900;
+    margin-bottom: 15px;
+}
+
+#header-btn {
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    border: 3px solid #e5e7eb;
+}
+
+.c1-img { 
+    max-width:100%;
+    height:auto;
+    border-radius: 15px;
+}
+
+.c2-title {
+    text-align: center;
+    margin: 50px;
+    font-size: 36px;
+    font-weight:900;
+}
+
+.content-row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.img-square {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #385a8a;
+    border-radius: 10px;
+    flex-shrink:0;
+    margin-bottom: 15px;
+}
+
+.content-item {
+    display:flex;
+    max-width: 200px;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    color:#1f293f;
+    padding: 150px 550px;
+    flex:1;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1f2937;
+    color:#e5e7eb;
+    margin: 70px 200px;
+    padding: 50px 200px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+#cta-title-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+#cta-btn {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    border: 3px solid #e5e7eb;
+}
+
+#footer {
+    text-align: center;
+    background-color:#1f2937;
+    padding: 30px 400px;
+    color:#e5e7eb;
+}
